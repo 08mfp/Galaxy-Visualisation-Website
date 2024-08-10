@@ -21,7 +21,9 @@ Before running this program, ensure you have the following:
    - Double-clicking the file.
    - Dragging the file into an open browser window.
 
-2. The program will load and display a simulation of the solar system with the Sun, Earth, Moon, and stars in the background.
+2. Make sure you have disabled cross-origin restrictions from the safari developer console.
+
+3. The program will load and display a simulation of the solar system with the Sun, Earth, Moon, and stars in the background.
 
 ## Explanation of the Code
 
@@ -50,6 +52,8 @@ Before running this program, ensure you have the following:
 
 - **Scene Not Displaying**:
     - Check for any console errors in your browser's developer tools (usually accessed by pressing `F12`).
+    - I have noticed a security restriction which prevents from certain textures loading on safari and chrome, in order to rectify this you have to enable developer settings and then Disable cross-origin restrictions.
+
 
 - **Slow Performance**:
     - Try using a different browser or running the simulation on a device with better hardware capabilities.
